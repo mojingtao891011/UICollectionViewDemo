@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HeadView.h
 //  UICollectionViewDemo
 //
 //  Created by 莫景涛 on 14-3-20.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-@property (weak, nonatomic) IBOutlet UICollectionView *CollectionView;
+@interface HeadView : UICollectionReusableView
+@property ( nonatomic , retain )UILabel *title ;
 @end
